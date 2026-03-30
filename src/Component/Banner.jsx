@@ -1,11 +1,14 @@
+import { CiPlay1 } from "react-icons/ci";
+
 import BannerImage from "../assets/banner.png";
+
 
 const Banner = () => {
   return (
-    <div className="flex justify-between  items-center mt-6 container mx-auto gap-9">
+    <div className="flex justify-between  items-center my-20 container mx-auto gap-3">
 
       {/* banner-left */}
-      <div>
+      <div className="space-y-4">
         <div class="badge badge-ghost bg-[ #e1e7ff] text-[#4F39F6] font-medium text-[16px] p-4   rounded-full ">
             <div className="inline-grid *:[grid-area:1/1]">
           <div className="status status-primary animate-ping"></div>
@@ -20,20 +23,20 @@ const Banner = () => {
           Supercharge Your <br />
           Digital Workflow
         </h1>
-        <p className="text-[#627382FF]">
-          Access premium AI tools, design assets, templates, and productivity
-          software—all in one place. Start creating faster today. Explore
-          Products
+        <p className="text-[#627382FF] text-lg">
+          Access premium AI tools, design assets, templates, and productivity <br />
+          bsoftware—all in one place. Start creating faster today. 
+          <br />Explore Products
         </p>
-        <div>
-          <button></button>
-          <button></button>
+        <div className="space-x-2   mt-7  ">
+          <button className="btn text-[16px] rounded-full  p-6 font-bold text-white bg-linear-to-l from-[#4f39f6] to-[#9514fa]">Explore Products</button>
+          <button className="btn rounded-full font-bold text-[16px] border border-purple-700 p-6"> <CiPlay1 /> Watch Demo</button>
         </div>
       </div>
 
       {/* banner-right */}
       <div>
-        <div>
+        <div className="  object-contain">
           <img src={BannerImage} alt="" />
         </div>
       </div>
