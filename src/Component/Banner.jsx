@@ -10,7 +10,7 @@ const Banner = () => {
             <div className="inline-grid *:[grid-area:1/1]">
           <div className="status status-primary animate-ping"></div>
           <div className="status status-primary"> </div>
-        </div>{"New: AI-Powered Tools Available "}
+        </div>{"New: AI-Powered Tools Available"}
 
 
         </div>
