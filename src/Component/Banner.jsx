@@ -9,7 +9,7 @@ const Banner = () => {
 
       {/* banner-left */}
       <div className="space-y-4">
-        <div class="badge badge-ghost bg-[ #e1e7ff] text-[#4F39F6] font-medium text-[16px] p-4   rounded-full ">
+        <div className="badge badge-ghost bg-[#e1e7ff] text-[#4F39F6] font-medium text-[16px] p-4   rounded-full">
             <div className="inline-grid *:[grid-area:1/1]">
           <div className="status status-primary animate-ping"></div>
           <div className="status status-primary"> </div>

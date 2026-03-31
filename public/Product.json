@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and AI assistance.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "/public/Icons/human-resources.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Maker",
+    "description": "Build stunning personal portfolios without coding.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "Custom domains",
+      "SEO optimization"
+    ],
+    "icon": "/public/Icons/portfolio.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Cover Letter Generator",
+    "description": "Generate personalized cover letters using AI.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI writing assistant",
+      "Multiple formats",
+      "Instant download"
+    ],
+    "icon": "/public/Icons/writing_2327400 1.png"
+  },
+
+  {
+    "id": 4,
+    "name": "Interview Prep Kit",
+    "description": "Practice interviews with real-world questions and tips.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Mock interviews",
+      "Common Q&A",
+      "Expert tips"
+    ],
+    "icon": "/public/Icons/job-interview.png"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimizer",
+    "description": "Enhance your LinkedIn profile to attract recruiters.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Profile analysis",
+      "Keyword optimization",
+      "Headline generator"
+    ],
+    "icon": "/public/Icons/optimization.png"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Toolkit",
+    "description": "All-in-one toolkit for freelancers to manage projects and clients.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Invoice generator",
+      "Client management",
+      "Project tracking"
+    ],
+    "icon": "/public/Icons/service.png"
+  }
+ 
+]
