@@ -11,9 +11,9 @@ const StepsSection = () => {
         </div>
       
 
-      <div className=" grid grid-cols-3 gap-6  mt-9">
+      <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-6  mt-9 ">
 
-        <div className=" bg-white rounded-xl shadow-sm p-4 border w-96 border-gray-100 ">
+        <div className=" bg-white rounded-xl shadow-sm p-4 border    border-gray-100   ">
           <div className="flex justify-end mb-4">
             <div className="w-10 h-10 rounded-full bg-indigo-500 flex items-center     justify-center text-white text-sm font-semibold">
               01
@@ -31,13 +31,13 @@ const StepsSection = () => {
             <h2 className="text-xl font-bold text-gray-900 mb-2">
               Create Account
             </h2>
-            <p className="text-gray-500 text-sm">
+            <p className="text-gray-500 text-sm mb-10">
                 Sign up for free in seconds. No credit card required to get started.
             </p>
           </div>
         </div>
 
-         <div className=" bg-white rounded-xl shadow-sm p-4 border w-96 border-gray-100 ">
+         <div className=" bg-white rounded-xl shadow-sm p-4 border   border-gray-100  ">
           <div className="flex justify-end mb-4">
             <div className="w-10 h-10 rounded-full bg-indigo-500 flex items-center     justify-center text-white text-sm font-semibold">
               02
@@ -55,14 +55,14 @@ const StepsSection = () => {
             <h2 className="text-xl font-bold text-gray-900 mb-2">
               Choose Products
             </h2>
-            <p className="text-gray-500 text-sm">
+            <p className="text-gray-500 text-sm mb-10">
                 Browse our catalog and select the tools
 that fit your needs.
             </p>
           </div>
         </div>
 
-         <div className=" bg-white rounded-xl shadow-sm p-4 border w-96 border-gray-100 ">
+         <div className=" bg-white rounded-xl shadow-sm p-4 border  border-gray-100 ">
           <div className="flex justify-end mb-4">
             <div className="w-10 h-10 rounded-full bg-indigo-500 flex items-center     justify-center text-white text-sm font-semibold">
               03
@@ -80,7 +80,7 @@ that fit your needs.
             <h2 className="text-xl font-bold text-gray-900 mb-2">
               Start Creating
             </h2>
-            <p className="text-gray-500 text-sm">
+            <p className="text-gray-500 text-sm mb-10">
                Download and start using your premium 
                 tools immediately.
             </p>

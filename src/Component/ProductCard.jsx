@@ -8,8 +8,8 @@ const ProductCard = ({product}) => {
    <div className="">
                     
                     
-        <div className="card w-96 bg-base-100 shadow-sm border border-stone-200 h-full flex flex-col">
-  <div className="card-body h-full flex flex-col">
+        <div className="card w-full  bg-base-100 shadow-sm border border-stone-200 h-full flex flex-col">
+  <div className="card-body h-full  flex flex-col ">
 
         <div className="flex-1 space-y-2">
 
@@ -40,6 +40,7 @@ const ProductCard = ({product}) => {
     </div>
     
     </div>
+
     <div className="mt-6">
       <button className="btn text-[16px] w-full rounded-full  p-6 font-bold text-white bg-linear-to-l from-[#4f39f6] to-[#9514fa]">Buy Now</button>
     </div>

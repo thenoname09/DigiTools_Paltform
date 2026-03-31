@@ -20,7 +20,7 @@ const Product = ({productPromise}) => {
 
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 container mx-auto gap-5 mt-9">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 container mx-auto gap-9 mt-9">
                 {products.map(product => <ProductCard key={product.id} product={product}></ProductCard>
                 
                 )}
