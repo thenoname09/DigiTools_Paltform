@@ -12,7 +12,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "/public/Icons/human-resources.png"
+    "icon": "/Icons/human-resources.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Custom domains",
       "SEO optimization"
     ],
-    "icon": "/public/Icons/portfolio.png"
+    "icon": "/Icons/portfolio.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Multiple formats",
       "Instant download"
     ],
-    "icon": "/public/Icons/writing_2327400 1.png"
+    "icon": "/Icons/writing_2327400 1.png"
   },
 
   {
@@ -58,7 +58,7 @@
       "Common Q&A",
       "Expert tips"
     ],
-    "icon": "/public/Icons/job-interview.png"
+    "icon": "/Icons/job-interview.png"
   },
   {
     "id": 5,
@@ -73,7 +73,7 @@
       "Keyword optimization",
       "Headline generator"
     ],
-    "icon": "/public/Icons/optimization.png"
+    "icon": "/Icons/optimization.png"
   },
   {
     "id": 6,
@@ -88,7 +88,7 @@
       "Client management",
       "Project tracking"
     ],
-    "icon": "/public/Icons/service.png"
+    "icon": "/Icons/service.png"
   }
  
 ]

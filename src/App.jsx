@@ -4,6 +4,7 @@ import Banner from './Component/Banner'
 import Navbar from './Component/Navbar'
 import Product from './Component/Product'
 import StaticsUser from './Component/StaticsUser'
+import StepsSection from './Component/StepsSection'
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <Banner></Banner>
     <StaticsUser></StaticsUser>
     <Product productPromise ={productPromise} > </Product>
+    <StepsSection ></StepsSection>
 
 
 
