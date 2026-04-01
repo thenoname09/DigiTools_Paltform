@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Banner from './Component/Banner'
 import Navbar from './Component/Navbar'
@@ -23,15 +24,17 @@ return res.json()
 }
 const pricingPromise = getPricing()
 
+
 function App() {
 
-
+  const [cartItems, setCartItems] = useState([])
+console.log(cartItems)
   return (
     <>
     <Navbar></Navbar>
     <Banner></Banner>
     <StaticsUser></StaticsUser>
-    <Product productPromise ={productPromise} > </Product>
+    <Product productPromise ={productPromise} cartItems={cartItems} setCartItems={setCartItems} > </Product>
     <StepsSection ></StepsSection>
     <Pricing pricingPromise={pricingPromise}></Pricing>
 

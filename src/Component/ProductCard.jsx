@@ -1,8 +1,16 @@
+import { useState } from "react";
 import ProductCardFeatures from "./ProductCardFeatures";
 
 
-const ProductCard = ({product}) => {
+const ProductCard = ({product,cartItems, setCartItems}) => {
     const {features} = product
+
+   const [ isAddToCart, setAddToCart] = useState(false);
+
+    const handleAddedToCart = () => {
+     setAddToCart(true);
+     setCartItems([...cartItems,product])}
+
     return (
         
    <div className="">
@@ -42,7 +50,8 @@ const ProductCard = ({product}) => {
     </div>
 
     <div className="mt-6">
-      <button className="btn text-[16px] w-full rounded-full  p-6 font-bold text-white bg-linear-to-l from-[#4f39f6] to-[#9514fa]">Buy Now</button>
+      <button onClick={ handleAddedToCart } className={`btn text-[16px] w-full rounded-full p-6 font-bold text-white ${isAddToCart ? "bg-green-600" : "bg-linear-to-l from-[#4f39f6] to-[#9514fa]"
+    }`}>{isAddToCart ? "Added to Cart!" : "Buy Now"}</button>
     </div>
 
   </div>
