@@ -4,9 +4,9 @@ import packageImage from "../assets/package.png";
 const StepsSection = () => {
   return (
     <div className="  bg-[#F9FAFC]  ">
-        <div className="container mx-auto pt-25 pb-25">
+        <div className="container mx-auto py-10 lg:py-20 ">
         <div className="text-center ">
-            <h2 className="font-extrabold text-5xl">Get Started in 3 Steps</h2>
+            <h2 className="font-extrabold text-3xl  sm:text-4xl lg:text-5xl">Get Started in 3 Steps</h2>
              <p className="text-gray-500 mt-4">Start using premium digital tools in minutes, not hours.</p>
         </div>
       

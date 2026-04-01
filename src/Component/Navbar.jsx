@@ -19,7 +19,7 @@ const Navbar = ({cartItems}) => {
              <li><a>FAQ</a></li>
       </ul>
     </div>
-    <a className=" text-4xl pt-4 pb-4 font-extrabold bg-linear-to-l from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">DigiTools</a>
+    <a className="text-2xl sm:text-3xl lg:text-4xl  pt-4 pb-4 font-extrabold bg-linear-to-l from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">DigiTools</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-[#101727] font-semibold">
@@ -31,7 +31,7 @@ const Navbar = ({cartItems}) => {
       <li><a>FAQ</a></li>
     </ul>
   </div>
-  <div className="navbar-end ">
+  <div className="navbar-end text-2xl sm:text-3xl lg:text-4xl ">
      <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
         <div className="indicator">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
@@ -40,8 +40,8 @@ const Navbar = ({cartItems}) => {
             <span className="bg-red-500 badge badge-sm text-sm indicator-item ">{cartItems.length}</span>)}</span>
         </div>
       </div>
-    <a className="btn btn-ghost">Login</a>
-    <a className=" btn rounded-full text-white bg-linear-to-l from-[#4f39f6] to-[#9514fa]">Get Started</a>
+    <a className="hidden sm:flex btn btn-ghost">Login</a>
+    <a className="  btn rounded-full text-white bg-linear-to-l from-[#4f39f6] to-[#9514fa]">Get Started</a>
   </div>
 </div>
 </div>

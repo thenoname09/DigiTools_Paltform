@@ -26,13 +26,13 @@ const ProductCard = ({product,cartItems, setCartItems}) => {
    <div className="">
                     
                     
-        <div className="card w-full  bg-base-100 shadow-sm border border-stone-200 h-full flex flex-col">
+        <div className="card w-full  bg-base-100 shadow-sm border border-stone-200 h-full flex flex-col transition duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-xl hover:border-purple-400">
   <div className="card-body h-full  flex flex-col ">
 
         <div className="flex-1 space-y-2">
 
     <div className="text-right">
-           <span className="badge badge-xs badge-warning text-center">{product.tag}</span>
+           <span className="badge badge-md rounded-full font-semibold badge-warning text-center">{product.tag}</span>
     </div>
     
 

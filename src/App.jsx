@@ -7,6 +7,7 @@ import Pricing from './Component/Pricing'
 import Product from './Component/Product'
 import StaticsUser from './Component/StaticsUser'
 import StepsSection from './Component/StepsSection'
+import Footer from './Component/Footer'
 
 
 
@@ -39,7 +40,7 @@ function App() {
     
     <StepsSection ></StepsSection>
     <Pricing pricingPromise={pricingPromise}></Pricing>
-
+    <Footer></Footer>
     
 
 

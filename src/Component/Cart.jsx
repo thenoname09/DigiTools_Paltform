@@ -7,7 +7,7 @@ const Cart = ({ cartItems, setCartItems }) => {
 
      const handlePayment = () => {
          setCartItems([]) 
-        toast.info("Checkout Complete")
+        toast.success("Checkout Complete")
         }
 
 

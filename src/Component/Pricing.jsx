@@ -5,10 +5,10 @@ const Pricing = ({ pricingPromise }) => {
   const pricing = use(pricingPromise);
 
   return (
-    <div className="my-20">
-      <div className="text-center space-y-3">
-        <h2 className="font-extrabold text-5xl">Simple, Transparent Pricing</h2>
-        <p className="text-sm text-[#627382FF]">
+    <div className=" my-10 lg:my-20 px-4">
+      <div className="text-center space-y-3 p-4">
+        <h2 className="font-extrabold text-3xl sm:text-4xl lg:text-5xl">Simple, Transparent Pricing</h2>
+        <p className="text-lg text-[#627382FF]">
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
@@ -17,11 +17,11 @@ const Pricing = ({ pricingPromise }) => {
         {pricing.map((pricingData,) => (
           <div>
             <div
-              className={`card  w-full   shadow-sm border  border-stone-200 h-full flex flex-col 
+              className={`card  w-full   shadow-md border  border-stone-200 h-full flex flex-col transition duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-xl hover:border-purple-400
                  ${
                    pricingData.popular
-                     ? "bg-linear-to-bl from-[#4f39f6] to-[#9514fa] text-white border-transparent shadow-xl "
-                     : "bg-[#F9FAFC] border-stone-200"
+                     ? "bg-linear-to-bl from-[#4f39f6] to-[#9514fa] text-white border-transparent shadow-xl hover:shadow-2xl hover:border-zinc-950"
+                     : "bg-[#F9FAFC] border-stone-200 "
                  } `}
             >
               <div className="card-body h-full flex flex-col">

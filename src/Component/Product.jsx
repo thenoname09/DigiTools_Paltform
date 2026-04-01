@@ -7,9 +7,9 @@ const Product = ({ productPromise ,cartItems, setCartItems}) => {
   const products = use(productPromise);
   const [activeTab, setActiveTab] = useState("products");
   return (
-    <div className="my-20">
-      <div className=" min-w-3xl font text-center">
-        <h2 className="font-extrabold text-5xl">Premium Digital Tools</h2>
+    <div className="my-10 lg:my-20 px-4">
+      <div className=" max-w-3xl  mx-auto text-center">
+        <h2 className="font-extrabold  text-3xl sm:text-4xl lg:text-5xl">Premium Digital Tools</h2>
         <p className="text-[#627382FF] mt-2 text-sm">
           Choose from our curated collection of premium digital products
           designed <br />
