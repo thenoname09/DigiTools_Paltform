@@ -10,6 +10,7 @@ import StepsSection from './Component/StepsSection'
 
 
 
+
 const getProduct = async () =>{
   const res = await fetch("/Product.json")
 return res.json()
@@ -28,17 +29,18 @@ const pricingPromise = getPricing()
 function App() {
 
   const [cartItems, setCartItems] = useState([])
-console.log(cartItems)
+
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar cartItems={cartItems}></Navbar>
     <Banner></Banner>
     <StaticsUser></StaticsUser>
     <Product productPromise ={productPromise} cartItems={cartItems} setCartItems={setCartItems} > </Product>
+    
     <StepsSection ></StepsSection>
     <Pricing pricingPromise={pricingPromise}></Pricing>
 
-
+    
 
 
 

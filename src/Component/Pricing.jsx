@@ -14,7 +14,7 @@ const Pricing = ({ pricingPromise }) => {
       </div>
       {/* pricing Card */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3    container mx-auto gap-4 mt-9">
-        {pricing.map((pricingData) => (
+        {pricing.map((pricingData,) => (
           <div>
             <div
               className={`card  w-full   shadow-sm border  border-stone-200 h-full flex flex-col 

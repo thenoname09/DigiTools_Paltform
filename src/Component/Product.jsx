@@ -2,6 +2,7 @@ import { use, useState,  } from "react";
 import ProductCard from "./ProductCard";
 import Cart from "./cart";
 
+
 const Product = ({ productPromise ,cartItems, setCartItems}) => {
   const products = use(productPromise);
   const [activeTab, setActiveTab] = useState("products");
@@ -29,7 +30,9 @@ const Product = ({ productPromise ,cartItems, setCartItems}) => {
         className={`btn rounded-full p-6  font-bold r ${activeTab === "cart"
             ? "text-white bg-linear-to-l from-[#4f39f6] to-[#9514fa]"
             : "border border-purple-700"
-        }`} > Cart
+        }`} > Cart {cartItems.length > 0 && (
+            <span>({cartItems.length})</span>)}
+
       </button>
         </div>
 
